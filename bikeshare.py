@@ -14,7 +14,9 @@ accepted_display = ["yes", "no"]
 def user_selection(options, prompt):
      """
     Asks user for input with a prompt. Checks to make sure input fits valid global list. Returns a valid response(human_reply( to a given prompt.
-
+    Args:
+        (str) options - list all feasible options
+        (str) prompt - Provides prompt given stage of user selection
     """
     while True:
         #Input to prompt is assigned to variable human_reply
