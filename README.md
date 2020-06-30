@@ -22,7 +22,7 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
-###Stats Explored
+### Stats Explored
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
 
 #1 Popular times of travel (i.e., occurs most often in the start time)
@@ -44,3 +44,7 @@ average travel time
 counts of each user type
 counts of each gender (only available for NYC and Chicago)
 earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
+### Date Created
+
+6/29/2020
