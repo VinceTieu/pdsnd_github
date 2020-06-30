@@ -1,4 +1,6 @@
-### Date created
+# Bikeshare Project
+Script is written in Python. It uses pandas, numpy, datetime, and csv packages. Launch bikeshare.py file from your terminal. A prompt will take help you through the process. 
+### Date c
 Include the date you created this project and README file.
 
 ### Project Title
@@ -12,4 +14,3 @@ Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
