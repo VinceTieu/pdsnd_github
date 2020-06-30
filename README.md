@@ -15,8 +15,9 @@ Gender
 Birth Year
 
 
-### Files used
-Include the files used
+### Files
+I used data provided by Motivate, a national bike share system provider. In order to run the program, the following files are needed.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+chicago.csv
+new_york_city.csv
+washington.csv
