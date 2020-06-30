@@ -4,7 +4,7 @@ import numpy as np
 import calendar as calendar
 
 CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
+               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 accepted_cities = ["new york city", "chicago", "washington"]
 accepted_months = ["january", "february", "march", "april", "may", "june", "all"]
@@ -45,7 +45,7 @@ def get_filters():
     day = user_selection(accepted_day, "Would you like to filter data by day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, or all? Type 'all' for no filters\n")
 
 
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 
@@ -111,7 +111,7 @@ def time_stats(df):
     print("\nThe most common hour is: {}".format(popular_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def station_stats(df):
@@ -134,7 +134,7 @@ def station_stats(df):
     print("\nThe most combined start and end station is:\n {}".format(popular_combination))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def trip_duration_stats(df):
@@ -153,7 +153,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def user_stats(df):
@@ -180,7 +180,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 def raw_data_output(df):
      """Prompts user if he/she wants to view more data. Yes will spit out 5 lines of raw data from top to bottom. No will end the program"""
